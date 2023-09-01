@@ -1,0 +1,4 @@
+
+make: mysh.c
+	gcc mysh.c -o mysh -Wall || exit 1
+	./mysh
